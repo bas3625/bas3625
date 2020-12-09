@@ -1,7 +1,7 @@
 @import url(httpsfonts.googleapis.comcss2family=Varela+Round&display=swap);
 
 :root {
-  --customFont Varela Round;
+  --customFont "Varela Round";
   --borders-buttons-1 20px;
   --borders-buttons-2 20px;
   --borders-switches 15px;
@@ -1359,3 +1359,4 @@ bodynot([class=hljs])not(code)not([class=ace_]) {
    color var(--text-muted);
    font-size 12px;
    line-height 16px
+}
