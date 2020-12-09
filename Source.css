@@ -1,6 +1,6 @@
 @import url(httpsfonts.googleapis.comcss2family=Varela+Round&display=swap);
 
-root {
+:root {
   --customFont Varela Round;
   --borders-buttons-1 20px;
   --borders-buttons-2 20px;
