@@ -1,7 +1,7 @@
-@import url(httpsfonts.googleapis.comcss2family=Varela+Round&display=swap);
+@import url("https://fonts.googleapis.com/css2?family=Varela+Round&display=swap");
 
 :root {
-   --customFont: "Varela Round";
+  --customFont: "Varela Round";
   --borders-buttons-1: 20px;
   --borders-buttons-2: 20px;
   --borders-switches: 15px;
@@ -1270,94 +1270,93 @@ button,
   margin-right: 1px;
 }
 
-.avatar-1BDn8e + h2  .headerText-3Uvj1Y  .username-1A8OIyafter {
-  display: "inline-block";
+.avatar-1BDn8e + h2 > .headerText-3Uvj1Y > .username-1A8OIy::after {
+  display: inline-block;
   height: 14px;
   width: 14px;
   line-height: 14px;
-  background-position: "center";
-  background-repeat: "no-repeat";
-  background-size: "contain";
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: contain;
   background-image: url('');
-  position: "relative";
+  position: relative;
   top: 2px;
   margin-left: 5px;
 }
-.avatar-1BDn8e + h2  .headerText-3Uvj1Y  .username-1A8OIyhoverafter {
-  width: "auto";
+.avatar-1BDn8e + h2 > .headerText-3Uvj1Y > .username-1A8OIy:hover::after {
+  width: auto;
   border-radius: 4px;
   padding: 2px 5px;
-  background-image: "none"!important;
+  background-image: none!important;
   background-color: #0d0d0d;
   color: #fff;
   font-size: 12px;
   top: -1px;
-  font-weight: "normal";
-  animation-timing-function: "linear";
+  font-weight: normal;
+  animation-timing-function: linear;
   transition: 
-    color: .2s ease,
-    background-color: .2s ease;
+    color .2s ease,
+    background-color .2s ease;
 }
 
 @keyframes rainbow {
-  from{filter hue-rotate(0deg)}
-  to{filter hue-rotate(360deg);}
+  from{filter: hue-rotate(0deg)}
+  to{filter: hue-rotate(360deg);}
 }
 @keyframes scaleIn {
-  from{transform scale(.1);}
-  to{transform scale(1);}
+  from{transform: scale(.1);}
+  to{transform: scale(1);}
 }
 @keyframes fadeIn {
-  from{opacity 0;}
-  to{opacity 1;}
+  from{opacity: 0;}
+  to{opacity: 1;}
 }
 
-.avatar-1BDn8e[src=638718909297590274] + h2  .headerText-3Uvj1Y  .username-1A8OIyafter {content ;
-  background-image url("httpscdn.discordapp.comattachments653938638782070785785941655832363018bandagedbd.png");}
-.avatar-1BDn8e[src=638718909297590274] + h2  .headerText-3Uvj1Y  .username-1A8OIyhoverafter {
+.avatar-1BDn8e[src*="638718909297590274"] + h2 > .headerText-3Uvj1Y > .username-1A8OIy::after {content: "";
+  background-image: url('https://cdn.discordapp.com/attachments/653938638782070785/785941655832363018/bandagedbd.png');}
+.avatar-1BDn8e[src*="638718909297590274"] + h2 > .headerText-3Uvj1Y > .username-1A8OIy:hover::after {
   content: "Developer";
   color: white;
   font: "Varela Round";
   background-color: #3e82e5;
-  animation: "scaleIn": .2s linear 1;
+  animation: scaleIn .2s linear 1;
   border-radius: 10px;
 }
 
-.avatar-1BDn8e[src=483368568025776128] + h2  .headerText-3Uvj1Y  .username-1A8OIyafter {content ;
-  background-image url("httpscdn.discordapp.comattachments653938638782070785785941655832363018bandagedbd.png");}
-.avatar-1BDn8e[src=483368568025776128] + h2  .headerText-3Uvj1Y  .username-1A8OIyhoverafter {
+.avatar-1BDn8e[src*="483368568025776128"] + h2 > .headerText-3Uvj1Y > .username-1A8OIy::after {content: "";
+  background-image: url('https://cdn.discordapp.com/attachments/653938638782070785/785941655832363018/bandagedbd.png');}
+.avatar-1BDn8e[src*="483368568025776128"] + h2 > .headerText-3Uvj1Y > .username-1A8OIy:hover::after {
   content: "Tester";
   color: white;
   font: "Varela Round";
   background-color: #3e82e5;
-  animation: "scaleIn": .2s linear 1;
+  animation: scaleIn .2s linear 1;
   border-radius: 10px;
 }
 
-.avatar-1BDn8e[src=338600633731121162] + h2  .headerText-3Uvj1Y  .username-1A8OIyafter {content ;
-  background-image url('httpscdn.discordapp.comattachments653938638782070785785941655832363018bandagedbd.png');}
-.avatar-1BDn8e[src=338600633731121162] + h2  .headerText-3Uvj1Y  .username-1A8OIyhoverafter {
+.avatar-1BDn8e[src*="338600633731121162"] + h2 > .headerText-3Uvj1Y > .username-1A8OIy::after {content: "";
+  background-image: url('https://cdn.discordapp.com/attachments/653938638782070785/785941655832363018/bandagedbd.png');}
+.avatar-1BDn8e[src*="338600633731121162"] + h2 > .headerText-3Uvj1Y > .username-1A8OIy:hover::after {
   content: "Tester";
   color: white;
   font: "Varela Round";
   background-color: #3e82e5;
-  animation: "scaleIn": .2s linear 1;
+  animation: scaleIn .2s linear 1;
   border-radius: 10px;
 }
 
--webkit-input-placeholder,
-bodynot([class=hljs])not(code)not([class=ace_]) {
-  font-family var(--customFont) !important;
+::-webkit-input-placeholder,
+body:not([class*="hljs"]):not(code):not([class*="ace_"]) {
+  font-family: var(--customFont) !important;
 }
 .ace_editor {
-  font: 17px  normal Monaco, Menlo, Ubuntu Mono, Consolas, source-code-pro,
+  font: 17px / normal Monaco, Menlo, "Ubuntu Mono", Consolas, source-code-pro,
     monospace !important;
 }
-
 
 #app-mount .info-1VyQPT::before {
    content: "RoundDiscord v1.0.5";
    color: var(--text-muted);
    font-size: 12px;
    line-height: 16px
- }
+}
