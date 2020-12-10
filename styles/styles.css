@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Varela+Round&display=swap');
+
 body {
   background-image: url(https://cdn.discordapp.com/attachments/653938638782070785/786516750794883072/bg.jpg);
   background-position: center center;
@@ -8,9 +10,9 @@ body {
 }
 
  h1. {
-   font-family: "Trebuchet MS", sans-serif;
-   font-size: 5em;
-   letter-spacing: -2px;
-   border-bottom: 2px solid black;
-   text-transform: uppercase;
- }
+   font-family: "Varela Round", sans-serif;
+    height: 10vh;
+    line-height: 10vh;
+    font-size: 5vh;
+    text-align: center;
+}
