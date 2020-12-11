@@ -1363,6 +1363,35 @@ body:not([class*="hljs"]):not(code):not([class*="ace_"]) {
   animation: rotate360 2s infinite linear;
 }
 
+@keyframes pulsingBackground {
+  0% {
+    background-color: var(--background-modifier-selected);
+  }
+  25% {
+    background-color: var(--background-modifier-selected);
+    opacity: 100%;
+  }
+  50% {
+    background-color: var(--background-modifier-selected);
+    opacity: 25%;
+  }
+  75% {
+    background-color: var(--background-modifier-selected);
+    opacity: 100%;
+  }
+  100% {
+    background-color: var(--background-modifier-selected);
+  }
+}
+.wrapper-2jXpOf.modeSelected-346R90 .mainContent-u_9PKf:before {
+  transition: width 0.5s;
+  position: absolute;
+  animation-name: pulsingBackground;
+  animation-duration: 1.5s;
+  animation-iteration-count: infinite;
+  border-radius: 25px;
+}
+
 #app-mount .info-1VyQPT::before {
    content: "RoundDiscord v1.0.5";
    color: var(--text-muted);
