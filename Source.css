@@ -1354,6 +1354,15 @@ body:not([class*="hljs"]):not(code):not([class*="ace_"]) {
     monospace !important;
 }
 
+@keyframes rotate360 {
+  to {
+    transform: rotate(360deg);
+  }
+}
+.container-3baos1 .button-14-BFJ:last-child:hover svg {
+  animation: rotate360 2s infinite linear;
+}
+
 #app-mount .info-1VyQPT::before {
    content: "RoundDiscord v1.0.5";
    color: var(--text-muted);
