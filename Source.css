@@ -1417,6 +1417,60 @@ body:not([class*="hljs"]):not(code):not([class*="ace_"]) {
   background-color: var(--color-high);
 }
 
+.container-2Pjhx- {
+  transition: color 0.5s;
+  max-width: none;
+  border-radius: 25px;
+  height: 44px;
+  margin: 5px 0px 5px 5px;
+}
+.container-2Pjhx- .layout-2DM8Md {
+  background-color: transparent !important;
+  height: 36px;
+  margin: 3px 0px 5px 5px;
+  border-radius: 25px;
+  top: 0px;
+  bottom: 0px;
+}
+.container-2Pjhx- .layout-2DM8Md:before {
+  content: "";
+  position: absolute;
+  left: 0;
+  top: 0px;
+  bottom: 0px;
+  transition: width 0.5s;
+  animation-name: pulsingBackground;
+  animation-duration: 1.5s;
+  animation-iteration-count: infinite;
+  border-radius: 25px;
+  width: 0%;
+}
+.container-2Pjhx-.selected-aXhQR6,
+.container-2Pjhx-:hover {
+  color: white;
+  background-color: #34373c;
+  border-radius: 25px;
+  box-shadow: 0 1px var(--color-low), 0 -1px var(--color-low);
+}
+.container-2Pjhx-.selected-aXhQR6 .name-uJV0GL span,
+.container-2Pjhx-.selected-aXhQR6 .activity-2Gy-9S,
+.container-2Pjhx-.selected-aXhQR6 .muted-3mU76i,
+.container-2Pjhx-:hover .name-uJV0GL span,
+.container-2Pjhx-:hover .activity-2Gy-9S,
+.container-2Pjhx-:hover .muted-3mU76i {
+  color: white;
+}
+.container-2Pjhx-.selected-aXhQR6 .layout-2DM8Md:before,
+.container-2Pjhx-:hover .layout-2DM8Md:before {
+  width: 100%;
+}
+.container-2Pjhx-.selected-aXhQR6 .linkButtonIcon-Mlm5d6,
+.container-2Pjhx-.selected-aXhQR6 .content-3QAtGj,
+.container-2Pjhx-:hover .linkButtonIcon-Mlm5d6,
+.container-2Pjhx-:hover .content-3QAtGj {
+  z-index: 1;
+}
+
 #app-mount .info-1VyQPT::before {
    content: "RoundDiscord v1.0.5";
    color: var(--text-muted);
