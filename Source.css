@@ -1,7 +1,7 @@
-@import url("https://fonts.googleapis.com/css2?family=Varela+Round&display=swap");
+@import url('https://fonts.googleapis.com/css2?family=Varela+Round&display=swap');
 
 :root {
-  --customFont: "Varela Round";
+  --custom: "Varela Round";
   --borders-buttons-1: 20px;
   --borders-buttons-2: 20px;
   --borders-switches: 15px;
