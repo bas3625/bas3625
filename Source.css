@@ -1383,13 +1383,38 @@ body:not([class*="hljs"]):not(code):not([class*="ace_"]) {
     background-color: var(--background-modifier-selected);
   }
 }
-.wrapper-2jXpOf.modeSelected-346R90 .mainContent-u_9PKf:before {
+.wrapper-2jXpOf .name-23GUGE,
+.wrapper-2jXpOf .actionIcon-PgcMM2 {
+  transition: color 0.2s;
+  border-radius: 25px;
+}
+.wrapper-2jXpOf .mainContent-u_9PKf:before {
   transition: width 0.5s;
   position: absolute;
   animation-name: pulsingBackground;
   animation-duration: 1.5s;
   animation-iteration-count: infinite;
+  width: 0%;
   border-radius: 25px;
+}
+.wrapper-2jXpOf.modeConnected-3IsKId,
+.wrapper-2jXpOf.modeSelected-346R90,
+.wrapper-2jXpOf:hover {
+  box-shadow: 0 1px var(--color-low), 0 -1px var(--color-low);
+  border-radius: 25px;
+}
+.wrapper-2jXpOf.modeConnected-3IsKId .mainContent-u_9PKf:before,
+.wrapper-2jXpOf.modeSelected-346R90 .mainContent-u_9PKf:before,
+.wrapper-2jXpOf:hover .mainContent-u_9PKf:before {
+  border-radius: 25px;
+  width: 100%;
+}
+.wrapper-2jXpOf.modeConnected-3IsKId,
+.wrapper-2jXpOf.modeSelected-346R90 .icon-1DeIlz,
+.wrapper-2jXpOf:hover .icon-1DeIlz {
+  border-radius: 25px;
+  color: white;
+  background-color: var(--color-high);
 }
 
 #app-mount .info-1VyQPT::before {
