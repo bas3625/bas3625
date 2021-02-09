@@ -1270,15 +1270,6 @@ button,
   margin-right: 1px;
 }
 
-@keyframes rotate360 {
-  to {
-    transform: rotate(360deg);
-  }
-}
-.container-3baos1 .button-14-BFJ:last-child:hover svg {
-  animation: rotate360 2s infinite linear;
-}
-
 @keyframes pulsingBackground {
   0% {
     background-color: var(--background-modifier-selected);
