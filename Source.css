@@ -1337,7 +1337,7 @@ button,
 }
 
 #app-mount .info-1VyQPT::before {
-   content: "RoundDiscord v1.0.5";
+   content: "RoundDiscord v1.0.6";
    color: var(--text-muted);
    font-size: 12px;
    line-height: 16px
